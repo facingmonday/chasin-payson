@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { HeroCountdown } from "./HeroCountdown";
+import Header from "./Header";
 import {
   KIKITS_REGISTER_URL,
   COURSE_MAP_URL,
@@ -12,12 +13,15 @@ import {
 export function HeroSection() {
   return (
     <section
-      className="relative min-h-[80vh] w-full overflow-hidden bg-[var(--background-secondary)]"
+      className="relative min-h-[90vh] w-full overflow-hidden bg-[var(--background-secondary)]"
       aria-labelledby="hero-heading"
     >
+      <Header />
       <video
-        className="absolute inset-0 h-full w-full object-cover"
-        src={HERO_VIDEO_URL}
+        className="absolute inset-0 z-0 h-full w-full object-top object-cover"
+        src={
+          "https://next-wave-agentic.nyc3.cdn.digitaloceanspaces.com/ChasinPaytonMedia/ChasinPaysonHero2.mp4"
+        }
         autoPlay
         muted
         loop
@@ -25,8 +29,8 @@ export function HeroSection() {
         preload="auto"
         aria-hidden
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-[#00162b]/50 via-[#001c39]/55 to-[#00162b]" />
-      <div className="relative flex flex-col justify-end min-h-[70vh] p-6 pb-3 sm:p-8 sm:pb-4 md:p-10 md:pb-5">
+      <div className="absolute inset-0 z-[1] bg-gradient-to-b from-[#00162b]/50 via-[#001c39]/55 to-[#00162b]" />
+      <div className="relative z-10 flex flex-col justify-end min-h-[70vh] p-6 pb-3 sm:p-8 sm:pb-4 md:p-10 md:pb-5">
         <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between md:gap-8">
           <div className="flex flex-col gap-4 max-w-2xl">
             <h1
