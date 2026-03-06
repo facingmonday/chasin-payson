@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Chasin Payson | Official Rule of Three Shakeout Ride",
+  title: "Chasin Payson | Pro-Led Shakeout Ride",
   description:
-    "The official shakeout ride of Rule of Three. Line up behind Payson McElveen. May 14, 5PM at Airship @ The Pumphouse, Bentonville.",
+    "Pro-led shakeout ride. Line up behind Payson McElveen. May 14, 5PM at Airship @ The Pumphouse, Bentonville.",
 };
 
 export default function RootLayout({
