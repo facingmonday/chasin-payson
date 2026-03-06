@@ -2,8 +2,10 @@
 
 import { useEffect, useState } from "react";
 
-// May 14, 2026 5:00 PM Central (Bentonville, AR) — ISO with offset so countdown is correct in all timezones
-const EVENT_DATE = new Date("2026-05-14T17:00:00-05:00");
+// Event day: May 14, 2026. Countdown is calendar days until that date in the user's local timezone.
+const EVENT_YEAR = 2026;
+const EVENT_MONTH = 4; // May (0-indexed)
+const EVENT_DAY = 14;
 
 export function HeroCountdown() {
   const [daysLeft, setDaysLeft] = useState<number | null>(null);
@@ -11,8 +13,16 @@ export function HeroCountdown() {
   useEffect(() => {
     const update = () => {
       const now = new Date();
-      const diff = EVENT_DATE.getTime() - now.getTime();
-      setDaysLeft(Math.max(0, Math.ceil(diff / (1000 * 60 * 60 * 24))));
+      const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+      const eventDay = new Date(EVENT_YEAR, EVENT_MONTH, EVENT_DAY);
+      // Count calendar days (DST-safe: advance one local day at a time)
+      let count = 0;
+      const d = new Date(today);
+      while (d < eventDay) {
+        d.setDate(d.getDate() + 1);
+        count++;
+      }
+      setDaysLeft(Math.max(0, count));
     };
     update();
     const id = setInterval(update, 60_000);
