@@ -12,7 +12,7 @@ import {
 export function HeroSection() {
   return (
     <section
-      className="relative min-h-[70vh] w-full overflow-hidden bg-[var(--background-secondary)]"
+      className="relative min-h-[80vh] w-full overflow-hidden bg-[var(--background-secondary)]"
       aria-labelledby="hero-heading"
     >
       <video
