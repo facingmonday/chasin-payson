@@ -46,6 +46,9 @@ export function HeroSection() {
               Pro-Led Shakeout Ride
             </h2>
             <p className="text-lg text-zinc-300">
+              May 14, 5PM at Airship @ The Pumphouse, Bentonville.
+            </p>
+            <p className="text-lg text-zinc-300">
               A pro-led shakeout. A Red Bull–fueled test. Line up. Hold on.
               Cross the arch.
             </p>

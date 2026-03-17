@@ -6,15 +6,16 @@ export default function Header() {
   return (
     <header className="relative z-10  bg-[#00162b]/50" aria-label="Site header">
       <div className="mx-auto flex flex-wrap items-center justify-between gap-4 px-4 py-3.5 sm:px-6 sm:py-4 lg:px-8">
-        <div className="">
+        <Link href="/" className="flex items-center">
           <Image
-            src={"/images/RedBullLogo.png"}
-            alt="Red Bull"
-            width={125}
-            height={125}
-            className="text-lg font-bold text-white"
+            src="/images/chasinpayson-logo.png"
+            alt="Chasin Payson"
+            width={180}
+            height={80}
+            className="h-12 w-auto object-contain sm:h-14"
+            priority
           />
-        </div>
+        </Link>
         <nav
           className="flex items-center gap-3"
           aria-label="Primary navigation"
