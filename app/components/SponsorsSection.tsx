@@ -68,6 +68,13 @@ export function SponsorsSection() {
               height={100}
               className="h-16 w-auto max-w-[160px] object-contain sm:h-20 sm:max-w-[180px] md:h-20 md:max-w-[220px] lg:max-w-[280px]"
             />
+            <Image
+              src={"/images/ProBikeCenter.webp"}
+              alt="Pro Bike Center"
+              width={200}
+              height={100}
+              className="h-16 w-auto max-w-[160px] object-contain sm:h-20 sm:max-w-[180px] md:h-20 md:max-w-[220px] lg:max-w-[240px]"
+            />
           </div>
         </div>
       </div>
