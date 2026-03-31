@@ -64,6 +64,20 @@ export function SponsorsSection() {
             <span className="text-lg font-bold text-white text-wrap">
               THE <br /> LOCAL <br /> BENTONVILLE <br /> CYCLING COMMUNITY
             </span>
+            <Image
+              src={"/images/NextWaveAgenticLogo.png"}
+              alt="Next Wave Agentic"
+              width={200}
+              height={100}
+              className="h-auto w-32 max-w-full sm:w-48 md:w-64 lg:w-[300px]"
+            />
+            <Image
+              src={"/images/kikits-logo.png"}
+              alt="Kikits"
+              width={200}
+              height={100}
+              className="h-auto w-32 max-w-full sm:w-48 md:w-64 lg:w-[300px]"
+            />
           </div>
         </div>
       </div>
