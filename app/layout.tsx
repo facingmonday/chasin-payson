@@ -16,6 +16,27 @@ export const metadata: Metadata = {
   title: "Chasin Payson | Pro-Led Shakeout Ride",
   description:
     "Pro-led shakeout ride. Line up behind Payson McElveen. May 14, 5PM at Airship @ The Pumphouse, Bentonville.",
+  openGraph: {
+    title: "Chasin Payson | Pro-Led Shakeout Ride",
+    description:
+      "Pro-led shakeout ride. Line up behind Payson McElveen. May 14, 5PM at Airship @ The Pumphouse, Bentonville.",
+    url: "https://chasinpayson.com",
+    images: [
+      {
+        url: "/images/ChasinPaysonPoster.jpg",
+        width: 1024,
+        height: 576,
+        alt: "Chasin Payson pro-led shakeout ride poster",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Chasin Payson | Pro-Led Shakeout Ride",
+    description:
+      "Pro-led shakeout ride. Line up behind Payson McElveen. May 14, 5PM at Airship @ The Pumphouse, Bentonville.",
+    images: ["/images/ChasinPaysonPoster.jpg"],
+  },
 };
 
 export default function RootLayout({
