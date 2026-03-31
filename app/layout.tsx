@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     url: "https://chasinpayson.com",
     images: [
       {
-        url: "/images/ChasinPaysonPoster.jpg",
+        url: "https://kikits.nyc3.digitaloceanspaces.com/organizations/69a72fb647d530fa9c13f83f/files/1774986666017-ChasinPaysonUpdatePoster.jpg",
         width: 1024,
         height: 576,
         alt: "Chasin Payson pro-led shakeout ride poster",
@@ -35,7 +35,9 @@ export const metadata: Metadata = {
     title: "Chasin Payson | Pro-Led Shakeout Ride",
     description:
       "Pro-led shakeout ride. Line up behind Payson McElveen. May 14, 5PM at Airship @ The Pumphouse, Bentonville.",
-    images: ["/images/ChasinPaysonPoster.jpg"],
+    images: [
+      "https://kikits.nyc3.digitaloceanspaces.com/organizations/69a72fb647d530fa9c13f83f/files/1774986666017-ChasinPaysonUpdatePoster.jpg",
+    ],
   },
 };
 
