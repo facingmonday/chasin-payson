@@ -6,6 +6,7 @@ import { HowItWorksSection } from "./HowItWorksSection";
 import { WhoCanRideSection } from "./WhoCanRideSection";
 import { CourseSection } from "./CourseSection";
 import { RuleOfThreeWeekSection } from "./RuleOfThreeWeekSection";
+import { PaysonMcElveenSection } from "./PaysonMcElveenSection";
 import { SponsorsSection } from "./SponsorsSection";
 import { RegistrationDetailsSection } from "./RegistrationDetailsSection";
 import { FaqSection } from "./FaqSection";
@@ -290,6 +291,9 @@ export function RaceTrackWrapper() {
         </div>
         <div>
           <RuleOfThreeWeekSection />
+        </div>
+        <div>
+          <PaysonMcElveenSection />
         </div>
         <div>
           <SponsorsSection />
