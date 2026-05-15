@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { EventGallerySection } from "./EventGallerySection";
 import { WhatIsSection } from "./WhatIsSection";
 import { HowItWorksSection } from "./HowItWorksSection";
 import { WhoCanRideSection } from "./WhoCanRideSection";
@@ -279,6 +280,8 @@ export function RaceTrackWrapper() {
             <WhatIsSection />
           </div> 
         </div>*/}
+
+        <EventGallerySection />
 
         <div>
           <HowItWorksSection />

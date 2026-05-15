@@ -24,6 +24,25 @@ body {
   font-family: var(--font-oswald), system-ui, sans-serif;
 }
 
+@keyframes event-gallery-scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.event-gallery-track {
+  animation: event-gallery-scroll 70s linear infinite;
+}
+
+.event-gallery-track:hover,
+.event-gallery-track:focus-within {
+  animation-play-state: paused;
+}
+
 @font-face {
   font-family: "Oswald";
   src: url("/fonts/Oswald-VariableFont_wght.ttf") format("truetype");

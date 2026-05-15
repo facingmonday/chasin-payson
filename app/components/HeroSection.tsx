@@ -43,14 +43,15 @@ export function HeroSection() {
               id="hero-heading"
               className="text-2xl font-bold tracking-tight text-white sm:text-3xl md:text-4xl"
             >
-              Pro-Led Shakeout Ride
+              Thanks for the Chase
             </h2>
             <p className="text-lg text-zinc-300">
-              May 14, 5PM at Airship @ The Pumphouse, Bentonville.
+              Thank you to everyone who showed up, lined up, and made May 14 at
+              Airship @ The Pumphouse one for the books.
             </p>
             <p className="text-lg text-zinc-300">
-              A pro-led shakeout. A Red Bull–fueled test. Line up. Hold on.
-              Cross the arch.
+              The wheels were fast, the energy was loud, and the chase was
+              every bit as rowdy as we hoped.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link

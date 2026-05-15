@@ -1,5 +1,6 @@
 export { HeroSection } from "./HeroSection";
 export { RaceTrackWrapper } from "./RaceTrackWrapper";
+export { EventGallerySection } from "./EventGallerySection";
 export { WhatIsSection } from "./WhatIsSection";
 export { HowItWorksSection } from "./HowItWorksSection";
 export { WhoCanRideSection } from "./WhoCanRideSection";
